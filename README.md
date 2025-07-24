@@ -32,18 +32,18 @@ source venv_name/bin/activate
 
 you should see (venv_name) before your terminal line
 
-- Deactivating
+- Installing requirements
+
+```bash
+pip install -r --no-cache-dir requirements.txt
+```
+
+- Deactivating venv
 
 bash & powershell:
 
 ```bash
 deactivate
-```
-
-- Installing requirements
-
-```bash
-pip install -r --no-cache-dir requirements.txt
 ```
 
 - .gitignore explained
