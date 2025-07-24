@@ -32,6 +32,14 @@ source venv_name/bin/activate
 
 you should see (venv_name) before your terminal line
 
+- Deactivating
+
+bash & powershell:
+
+```bash
+deactivate
+```
+
 - Installing requirements
 
 ```bash
