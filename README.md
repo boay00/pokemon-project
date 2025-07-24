@@ -6,7 +6,7 @@ Overview of Data Science Process, introduction to machine learning concepts.
 - Data Loading
 - Data Cleaning
 - Introduction to Preprocessing
-- Introduction to Machine Learning (Linear Regression, Binary Classification, Multi Class Classification
+- Introduction to Machine Learning (Linear Regression, Binary Classification, Multi Class Classification)
 
 ### Venv Setup and Usage
 
@@ -21,7 +21,7 @@ python3.11 -m venv venv_name
 powershell:
 
 ```powershell
-.venv_name/Scripts/Activate.ps1
+.venv_name\Scripts\Activate.ps1
 ```
 
 bash:
