@@ -22,12 +22,12 @@ def main():
     # Define you pokemons name and stats
 
     dummy_pokemon = {
-    "name": "Bede's Dummy 2",
-    "attack": 34,
-    "defense": 54,
-    "sp_attack":45,
-    "sp_defense": 23
-    }
+    "name": "Blababab",
+    "attack": 77,
+    "defense": 4,
+    "sp_attack": 54,
+    "sp_defense": 120
+}
 
     # Prepare your Data
 
@@ -64,5 +64,7 @@ Loading Speed Prediction...
     dummy_pokemon["speed"] = int(speed_stat)
     with open(f"../../data/new_pokemon_database/{dummy_pokemon['name']}.json", "w") as file:
         json.dump(dummy_pokemon, file, indent=4)
+
+        
 if __name__ == "__main__":
     main()
