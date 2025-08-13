@@ -1,7 +1,8 @@
 {
-     "name": "Pawmite",
+    "name": "Pawmite",
     "attack": 70,
     "defense": 60,
     "sp_attack": 120,
-    "sp_defense": 100
+    "sp_defense": 100,
+    "speed": 87
 }

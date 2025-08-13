@@ -1,6 +1,8 @@
-{  "name": "Sharkigo",
-    "attack":90,
+{
+    "name": "Sharkigo",
+    "attack": 90,
     "defense": 40,
     "sp_attack": 150,
-    "sp_defense": 90
+    "sp_defense": 90,
+    "speed": 106
 }
