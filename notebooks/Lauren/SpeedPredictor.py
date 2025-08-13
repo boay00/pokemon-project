@@ -8,7 +8,7 @@ import os
 from sklearn.linear_model import LinearRegression
 
 def main():
-    model_root = "C:/Users/tiggy/Documents/VSCode/Data Science/Projects/pokemon-project/models/"
+    model_root = "../../models/"
     output_folder = "../../data/new_pokemon_database/"
     os.makedirs(output_folder, exist_ok=True)
 
@@ -17,13 +17,7 @@ def main():
     with open(f"{model_root}speed_predictor_scaler.pkl", "rb") as model_file:
         sc = pickle.load(model_file)
 
-    dummy_pokemon = {
-    "name": "Sharkigo",
-    "attack":90,
-    "defense": 40,
-    "sp_attack": 150,
-    "sp_defense": 90
-}
+    dummy_pokemon = json.load(open("../../data/new_pokemon_database/Cryonix.json", "r"))
     input_data = pd.DataFrame(dummy_pokemon, columns = dummy_pokemon.keys(), index = range(1))
     input_data = input_data.drop(columns="name")
     input_data_sc = sc.transform(input_data)
